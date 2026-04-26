@@ -23,7 +23,7 @@ export class AuthService {
     id: true,
     email: true,
     name: true,
-    // password: false, // ne pas retourner le mot de passe
+    //on ne retourne pas le mots de passe pour la sécurité 
   },
     });
 ;
